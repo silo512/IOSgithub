@@ -207,7 +207,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             woodplank2.position = CGPoint(x:925,  y:2048)
         }
 
-        println(woodplank2.size)
+        //println(woodplank2.size)
         
         
         
