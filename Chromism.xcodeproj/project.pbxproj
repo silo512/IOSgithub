@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5777E6EB1B0C14B700951496 /* Beep_High_10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5777E6EA1B0C14B700951496 /* Beep_High_10.wav */; };
 		578A2D831B043CF400282737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A2D821B043CF400282737 /* AppDelegate.swift */; };
 		578A2D851B043CF400282737 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 578A2D841B043CF400282737 /* GameScene.sks */; };
 		578A2D871B043CF400282737 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578A2D861B043CF400282737 /* GameScene.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5777E6EA1B0C14B700951496 /* Beep_High_10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Beep_High_10.wav; sourceTree = "<group>"; };
 		578A2D7D1B043CF400282737 /* Chromism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chromism.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578A2D811B043CF400282737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		578A2D821B043CF400282737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		578A2D7F1B043CF400282737 /* Chromism */ = {
 			isa = PBXGroup;
 			children = (
+				5777E6EA1B0C14B700951496 /* Beep_High_10.wav */,
 				578A2D821B043CF400282737 /* AppDelegate.swift */,
 				578A2D841B043CF400282737 /* GameScene.sks */,
 				578A2D861B043CF400282737 /* GameScene.swift */,
@@ -210,6 +213,7 @@
 				578A2D911B043CF400282737 /* LaunchScreen.xib in Resources */,
 				578A2D8E1B043CF400282737 /* Images.xcassets in Resources */,
 				578A2D851B043CF400282737 /* GameScene.sks in Resources */,
+				5777E6EB1B0C14B700951496 /* Beep_High_10.wav in Resources */,
 				578A2D8C1B043CF400282737 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

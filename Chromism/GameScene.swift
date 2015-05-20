@@ -181,7 +181,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         for touch: AnyObject in touches {
             
            
-                charmy.physicsBody?.applyImpulse(CGVectorMake(50, 500))
+            charmy.physicsBody?.applyImpulse(CGVectorMake(50, 500))
+            
+            var playSoundEffect = SKAction.playSoundFileNamed("Beep_High_10.wav", waitForCompletion: true)
+            self.runAction(playSoundEffect)
+            
             
         }
     
